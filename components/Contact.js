@@ -15,11 +15,11 @@ export default function Contact() {
                 </div>
 
                 <h2 className="section-title" style={{ fontSize: '2.5rem', marginBottom: '1rem', background: 'white', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                    Mari Berdiskusi.
+                    Let's Discuss.
                 </h2>
 
                 <p style={{ color: 'var(--text-muted)', marginBottom: '3rem', fontSize: '1.1rem', lineHeight: '1.6', maxWidth: '500px', margin: '0 auto 3rem auto' }}>
-                    Lebih suka mengobrol langsung? Klik tombol di bawah ini untuk terhubung dengan saya via WhatsApp. Saya sangat terbuka untuk mendiskusikan peluang kerja sama baru.
+                    Prefer to chat directly? Click the button below to connect with me via WhatsApp. I’m always open to discussing new collaboration opportunities.
                 </p>
 
                 <a

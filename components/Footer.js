@@ -9,7 +9,7 @@ export default function Footer() {
         }}>
             <div className="container">
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                    &copy; {new Date().getFullYear()} Portofolio. Built with Next.js & Vanilla CSS.
+                    &copy; {new Date().getFullYear()} Muhammad Hartanto.
                 </p>
             </div>
         </footer>
