@@ -1,5 +1,6 @@
 import { projects } from '../data/projects';
 import { ExternalLink } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Projects() {
     return (
@@ -40,9 +41,9 @@ export default function Projects() {
                                 ))}
                             </div>
 
-                            <a href={project.link} className="btn btn-outline" style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', width: '100%' }}>
+                            <Link href={project.link} className="btn btn-outline" style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', width: '100%' }}>
                                 View Project <ExternalLink size={16} />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 ))}

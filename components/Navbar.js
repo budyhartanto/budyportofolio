@@ -11,9 +11,9 @@ export default function Navbar() {
 
       {/* Desktop Menu */}
       <div className={`nav-links ${isMobileMenuOpen ? 'mobile-active' : ''}`}>
-        <a href="#about" onClick={() => setIsMobileMenuOpen(false)}>About</a>
-        <a href="#projects" onClick={() => setIsMobileMenuOpen(false)}>Projects</a>
-        <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
+        <a href="/#about" onClick={() => setIsMobileMenuOpen(false)}>About</a>
+        <a href="/#projects" onClick={() => setIsMobileMenuOpen(false)}>Projects</a>
+        <a href="/#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
       </div>
 
       {/* Mobile Hamburger Toggle */}

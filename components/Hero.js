@@ -54,7 +54,7 @@ export default function Hero() {
                     <a href="#projects" className="btn btn-primary">
                         View Projects <ArrowRight size={18} />
                     </a>
-                    <a href="#" className="btn btn-outline" style={{ borderRadius: '9999px', padding: '0.75rem 1.5rem', border: '1px solid var(--border-color)' }}>
+                    <a href="/CV-Muhammad Budy Hartanto.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ borderRadius: '9999px', padding: '0.75rem 1.5rem', border: '1px solid var(--border-color)' }}>
                         <Download size={18} /> Resume
                     </a>
                 </div>
