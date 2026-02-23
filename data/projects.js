@@ -22,5 +22,13 @@ export const projects = [
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop',
     techStack: ['Next.js', 'Vanilla CSS'],
     link: '/projects/3',
+  },
+   {
+    id: 4,
+    title: 'Core Banking System',
+    description: 'A secure and scalable banking system with user authentication, transaction management, and reporting features.',
+    image: '/core_banking.png',
+    techStack: ['Next.js', 'Vanilla CSS'],
+    link: '/projects/4',
   }
 ];
